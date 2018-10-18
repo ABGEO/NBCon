@@ -65,10 +65,10 @@ def StartConverting():
 Action = input ("Enter 'help' for get information about NBCon\n" +
 "or 'convert' for start converting: ")
 
-if Action == 'help':
+if Action == 'help' or Action == 'h':
     PrintLogo()
     print("...help...")
-elif Action == 'convert':
+elif Action == 'convert' or Action == 'c':
     StartConverting()
 else:
     print("Incorect Command...")
